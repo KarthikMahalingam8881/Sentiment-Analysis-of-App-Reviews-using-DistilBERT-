@@ -2,6 +2,12 @@
 ## Overview
 This project focuses on developing a sentiment analysis model to classify app reviews from the Google Play Store. Utilizing the DistilBERT model, the project aims to achieve efficient and accurate sentiment classification. The model is optimized for performance on CPU-only environments, leveraging advanced NLP techniques and the PyTorch deep learning framework.
 
+## Dataset
+The dataset consists of 6000 app reviews, each with around 150 tokens. The reviews are labeled with sentiment scores ranging from 1 to 5. For the purpose of classification, these scores can be mapped to positive, neutral or negative sentiments. The dataset is split into training, validation, and test sets.
+
+## Obtaining the Dataset
+The dataset was collected using web scraping techniques from the Google Play Store. The google-play-scraper Python package was used to scrape app reviews, which were then preprocessed and labeled for sentiment analysis.
+
 ## Features
 - Data Collection: Reviews collected from multiple applications on the Google Play Store.
 - Data Preprocessing: Cleaned and tokenized text data for efficient model training.
