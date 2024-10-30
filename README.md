@@ -29,8 +29,5 @@ Follow these steps to use the sentiment analysis model:
 - Evaluation Metrics: Precision, recall, and F1 score used to validate model performance.
 - Inference Speed: Optimized for fast inference on CPU-only environments, suitable for large-scale deployment.
 
-## Source Code
-The source code for this project is maintained in a private repository. For access, please contact kmahali2@asu.edu.
-
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any bugs, feature requests, or improvements.
